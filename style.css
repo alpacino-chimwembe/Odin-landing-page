@@ -47,3 +47,37 @@ ul {
   scale: 1.1;
   transition: 700ms;
 }
+
+/* main-seconary / gallery */
+.main-secondary {
+  text-align: center;
+}
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7em;
+}
+
+/* image size */
+.gallery-item {
+  width: 30%;
+  height: 15%;
+  margin: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.quote-area {
+  background-color: #1f2937;
+  color: white;
+  padding: 2rem 7rem;
+  text-align: center;
+}
+
+/* footer */
+.cta-banner {
+  background-color: #1f2937;
+  color: white;
+  padding: 2rem 7rem;
+  text-align: center;
+}
