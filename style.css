@@ -8,7 +8,7 @@ nav {
   justify-content: space-between;
   background-color: #1f2937;
   color: white;
-  padding: 2em;
+  padding: 2em 7em;
 }
 ul {
   display: flex;
@@ -21,4 +21,29 @@ ul {
 }
 .nav-links:hover {
   color: #ff6b81;
+}
+
+/* Main section */
+.main-hero {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  padding: 0 7em;
+  font-size: 1.2rem;
+}
+
+.signup-btn {
+  display: inline-block;
+  background-color: #392a79;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: 2rem 0;
+  text-decoration: none;
+}
+.signup-btn:hover {
+  background-color: #ff6b81;
+  scale: 1.1;
+  transition: 700ms;
 }
